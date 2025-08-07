@@ -2,5 +2,7 @@
 
 require_relative "config/environment"
 
+SlackRubyBotServer::App.instance.prepare!
+
 run Rails.application
 Rails.application.load_server

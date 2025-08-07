@@ -61,3 +61,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "slack-ruby-bot-server-events"
+gem "otr-activerecord"
+gem "pagy_cursor"
+# gem "dotenv-rails"
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
